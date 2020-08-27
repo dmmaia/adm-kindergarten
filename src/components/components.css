@@ -1,8 +1,8 @@
 .registerBox {
     width: 40vw;
     height:  40vw;
-    z-index: 10;
-    margin: 10vh auto;
+    z-index: 15;
+    margin: -20vh auto;
     box-shadow: darkgray 2px 10px 20px;
 
     display: flex;
@@ -19,3 +19,24 @@
 
     background-color: rgb(97, 94, 94);
 }
+
+/*Toggle Menu*/
+.dontDisplay{
+    display: none;
+  }
+.closeButton div{
+    background-color: red;
+    width: 25px;
+    height: 5px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 38.3vw;
+    cursor: pointer;
+  }
+  
+  .first{
+    transform: rotateZ(45deg);
+  }
+  .second{
+    transform: rotateZ(-45deg);
+  }

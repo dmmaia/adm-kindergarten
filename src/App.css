@@ -10,6 +10,7 @@
 
 .content{
   display: flex;
+  flex-direction: column;
 }
 
 /*Header*/
@@ -54,4 +55,21 @@
   text-decoration: underline;
   cursor: pointer;
   transition: 300ms;
+}
+
+/*Utils*/
+
+.btn{
+  font-size: 1.3vw;
+  width: 10vw;
+  margin: 10vh auto;
+  border-radius: 10px;
+  background-color: rgb(152, 235, 152);
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+      font-weight: bold;
+}
+.btn:hover{
+  cursor: pointer;
+  text-decoration: underline;
 }
