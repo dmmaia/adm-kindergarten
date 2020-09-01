@@ -16,15 +16,13 @@ export default function StudentRegister() {
                 <div className="second"/>
             </div>
 
-            <label></label>
+            <label>Nome:</label>
             <input type="text" />
-            <label></label>
+            <label>Nascimento:</label>
+            <input type="date" />
+            <label>Mãe: </label>
             <input type="text" />
-            <label></label>
-            <input type="text" />
-            <label></label>
-            <input type="text" />
-            <label></label>
+            <label>Pai: </label>
             <input type="text" />
         </form>
     )
