@@ -24,6 +24,7 @@ export default function StudentRegister() {
             <input type="text" />
             <label>Pai: </label>
             <input type="text" />
+            <button class="btn">Adicionar</button>
         </form>
     )
 }
