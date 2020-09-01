@@ -12,7 +12,7 @@
 
 .registerBox label, input {
     width: 250px;
-    height: 25px;
+    min-height: 25px;
     font-size: 1.6vw;
     margin: 2%;
     color: rgb(83, 83, 83);
